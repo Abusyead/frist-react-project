@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DrawerComp from "./DrawerComp"; 
-import {AppBar , Toolbar , Tabs ,Tab, Button , Typography , useMediaQuery , useTheme} from "@mui/material"
+import {AppBar , Toolbar , Tabs ,Tab, Button , Typography , useMediaQuery , useTheme , Container} from "@mui/material"
 
 
 function Navbar() {
@@ -12,7 +12,8 @@ function Navbar() {
   
   return (
     <React.Fragment>
-        <AppBar sx={{background:"#183A40" }}>
+        <AppBar sx={{background:"#183A40"}}>
+          <Container maxWidth="xl">  
             <Toolbar>
                   <img src="img/Logo.png" alt="" />
                   {
@@ -35,6 +36,8 @@ function Navbar() {
                     )
                   }
             </Toolbar>
+
+          </Container>
             
         </AppBar>
     </React.Fragment>
