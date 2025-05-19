@@ -6,10 +6,8 @@ import {AppBar , Toolbar , Tabs ,Tab, Button , Typography , useMediaQuery , useT
 function Navbar() {
   const NavData = ["About Us" , "Pricing" , "Customaers" , "Solutions"]
   const [value , setValue] = useState();
-  const theme = useTheme();
-  console.log(theme);
-  const isMatch = useMediaQuery(theme.breakpoints.down("md"))
-  console.log(isMatch);
+  const theme = useTheme(); 
+  const isMatch = useMediaQuery(theme.breakpoints.down("md")) 
   
   
   return (

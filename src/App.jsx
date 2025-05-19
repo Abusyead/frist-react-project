@@ -1,16 +1,13 @@
 import './App.css'
-import Navbar from "./Components/Navbar"  
+import Navbar from "./Components/Navbar"
+import HeroArea from './Components/HeroArea'
 function App() { 
 
   return (
     <>
       <main>
-          <Navbar />
-          <div className="w-full max-w-[1440px]">
-              <div className="space-y-[120px]">
-              
-              </div>
-          </div>
+        <Navbar />
+       <HeroArea />
       </main>
     </>
   )
