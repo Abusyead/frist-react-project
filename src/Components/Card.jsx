@@ -17,10 +17,10 @@ function Card() {
         }
     ]
   return (
-    <section className="text-white py-[100px] bg-[#002228]">
-        <div className="max-w-[1440px] mx-auto  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-5">
+    <section className="text-white py-[40px] sm:py-[100px] bg-[#002228]">
+        <div className="max-w-[1440px] mx-auto  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 px-5">
             {Carddata.map((data,i) =>(
-                <div key={i} className="hover:border-[1px] border-[1px] border-transparent hover:border-gray-500 box-content px-6 py-8 rounded-2xl transform duration-300 cursor-pointer hover:shadow-sm  hover:shadow-gray-400">
+                <div key={i} className="hover:border-[1px] border-[1px] border-transparent hover:border-gray-500 box-content px-6 py-4 lg:py-8 rounded-2xl transform duration-300 cursor-pointer hover:shadow-sm  hover:shadow-gray-400">
                     <img src={data.img} alt="" />
                     <h2 className="py-2 font-semibold text-md">{data.title}</h2>
                     <p className="text-sm font-extralight text-[#ffffffa9] max-w-[400px]">{data.discription}</p>
