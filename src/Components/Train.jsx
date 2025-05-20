@@ -2,7 +2,7 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 function Train() {
   const listData = ["Quick to ramp","Easy to optimize","Quick to scale up","Works with all your existing tools"]
   return (
-    <section className="bg-[url(img.train.png)] text-white">
+    <section className="bg-[url(img/train.png)] text-white">
         <div className="max-w-[1440px] mx-auto px-8 flex items-center justify-start flex-col text-start sm:pb-3 pb-10">
             <div>
                 <h2 className="text-3xl my-2">Train your aiDR on your...</h2>
