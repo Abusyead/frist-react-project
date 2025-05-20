@@ -14,7 +14,7 @@ function Improvement() {
         },
     ]
   return (
-    <section className="bg-[url(img/imt.png)] bg-center bg-cover py-5 md:py-15">
+    <section className="bg-[url(img/imt.png)] bg-center bg-cover py-2 md:py-15">
         <div className="max-w-[1440px] bh px-6 md:py-5 py-2  mx-auto">
             <h2 className="text-3xl font-semibold max-w-[500px]">Allocate effort where your reps make an inpact.</h2>
             <h3 className="text-2xl italic text-[#0FF1F6] my-2">Let us handle the rest.</h3>

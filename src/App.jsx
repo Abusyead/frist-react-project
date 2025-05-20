@@ -7,6 +7,7 @@ import Train from './Components/Train'
 import Carousel from './Components/Carousel'
 import Improvement from './Components/Improvement'
 import Started from './Components/Started'
+import Footer from './Components/Footer'
 function App() { 
 
   return (
@@ -21,6 +22,7 @@ function App() {
           <Carousel />
           <Improvement />
           <Started />
+          <Footer />
         </div>
       </main>
     </>
