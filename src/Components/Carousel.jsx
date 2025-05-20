@@ -41,7 +41,7 @@ function Carousel(){
     const {img , dis , name , para} = Slides[currentIndex]
     
   return (
-    <section className="text-black">
+    <section className="bg-[#002228]">
         <div className="max-w-[1440px] px-5 mx-auto py-15">
             <div className=" flex w-[100%]">
                 <div className="w-[100%] flex justify-center items-center flex-col text-white px-20 relative">
