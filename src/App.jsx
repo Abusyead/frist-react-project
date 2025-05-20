@@ -6,6 +6,7 @@ import Card from './Components/Card'
 import Train from './Components/Train'
 import Carousel from './Components/Carousel'
 import Improvement from './Components/Improvement'
+import Started from './Components/Started'
 function App() { 
 
   return (
@@ -19,6 +20,7 @@ function App() {
           <Train />
           <Carousel />
           <Improvement />
+          <Started />
         </div>
       </main>
     </>
