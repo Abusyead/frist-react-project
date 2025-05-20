@@ -9,7 +9,9 @@ function Started() {
                 Wizia lets you train, activate, and       optimize aiDRs. 
                 Take your outbound to new levels of performance and efficiency.
             </p>
-  
+            <button className="btnColor mt-6 px-5 py-2 mx-5 sm:mx-0 rounded-full text-black text-sm w-full sm:w-auto">
+                Sign Up for the Beta  <PinInvokeIcon />
+            </button>
         </div>
     </section>
   )
