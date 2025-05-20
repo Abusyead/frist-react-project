@@ -4,7 +4,8 @@ import HeroArea from './Components/HeroArea'
 import Trusted from './Components/trusted'
 import Card from './Components/Card'
 import Train from './Components/Train'
-import Carousel from './Components/Carousel' 
+import Carousel from './Components/Carousel'
+import Improvement from './Components/Improvement'
 function App() { 
 
   return (
@@ -16,7 +17,8 @@ function App() {
           <Trusted />
           <Card />
           <Train />
-          <Carousel /> 
+          <Carousel />
+          <Improvement />
         </div>
       </main>
     </>
